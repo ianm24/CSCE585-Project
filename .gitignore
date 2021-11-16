@@ -1,1 +1,4 @@
 data/
+tree_plots/
+fast_train_model.py
+.DS_Store

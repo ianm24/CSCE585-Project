@@ -1,9 +1,0 @@
-digraph Tree {
-node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
-edge [fontname="helvetica"] ;
-0 [label=<norm_PlateLocHeight &le; -1.073<br/>gini = 0.667<br/>samples = 720660<br/>value = [269863, 4953, 205232, 240612]<br/>class = BallCalled>, fillcolor="#fdf7f3"] ;
-1 [label=<gini = 0.466<br/>samples = 132838<br/>value = [92962, 838, 23060, 15978]<br/>class = BallCalled>, fillcolor="#eeaf81"] ;
-0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label=<gini = 0.667<br/>samples = 587822<br/>value = [176901, 4115, 182172, 224634]<br/>class = Correct Swing>, fillcolor="#fbeafc"] ;
-0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-}
